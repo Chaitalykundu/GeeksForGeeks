@@ -12,9 +12,9 @@ bool divisible(string s)
 {
     int n = s.length();
 
-    int two_digits = s[n-1] +( (10* s[n-2]) + (100*s[n-3])-'0');
+    int three_digits = s[n-1] +( (10* s[n-2]) + (100*s[n-3])-'0');
 
-    if(two_digits%8==0)
+    if(three_digits %8 == 0)
         return 1;
     return 0;
 }
