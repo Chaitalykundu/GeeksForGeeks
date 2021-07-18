@@ -1,7 +1,7 @@
 /* Author : Chaitaly Kundu
    Date : 17-07-2021*/
 
-/* Question Title : Check if the number is divisible by 2 or not without dividing by 2 */
+/* Question Title : Check if the number is divisible by 5 or not using string */
 
 
 #include<iostream>
